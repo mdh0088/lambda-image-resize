@@ -1,0 +1,4 @@
+- Lambda@Edge 업로드용 node로 작성 된 이미지 리사이징 함수
+- 해당 코드에는 sharp 라이브러리를 사용을 했는데 sharp 라이브러리가 os 환경에 따른 설치 오류가 존재
+- 이 때문에 같이 첨부된 release-x64.zip zip파일을 압축을 풀고 직접 node_module에 파일을 이동시켜서 zip 파일로 만들고 Lambda@Edage에 upload 할 것
+- sharp 라이브러리를 아무리 linux환경에 맞춰서 install해도 오류가 발생 함 유의할 것.
